@@ -5,6 +5,7 @@ DIAGRAMA:
 ![Naves Figuras](https://github.com/user-attachments/assets/e0bd7bfd-b6aa-4be0-a280-854cb2b5afba)
 
 DESCRIPCIÓN:
+
 El juego que he realizado trata de una nave cuyo proposito es llegar a la mayor cantidad de puntos posibles sin perder sus vidas,destruyendo meteoritos y evitando que choquen
 en el, mientras mas metoritos eliminen mas puntos tendras y por cada meteorito que choque con la nave es una vida menos.
 ![image](https://github.com/user-attachments/assets/0dcfea63-213d-495d-bcaa-0f5759019eff)
@@ -193,19 +194,21 @@ Ventana
 
 RELACIONES:
 
--Las clases Circulo, Rectangulo y Triangulo parecen heredar de la clase Coordenada.
+- Las clases Circulo, Rectangulo y Triangulo parecen heredar de la clase Coordenada.
 
--CirculoGrafico, RectanguloGrafico, y TrianguloGrafico están asociadas con Circulo, Rectangulo, y Triangulo, respectivamente, y tienen una relación de 1 a muchos con PanelFG.
+- CirculoGrafico, RectanguloGrafico, y TrianguloGrafico están asociadas con Circulo, Rectangulo, y Triangulo, respectivamente, y tienen una relación de 1 a muchos con PanelFG.
 
--TextoGrafico está relacionado con PanelFG, probablemente para mostrar puntos y vidas.
+- TextoGrafico está relacionado con PanelFG, probablemente para mostrar puntos y vidas.
 
--La clase PanelFG se relaciona con Ventana, que parece ser el contenedor principal del proyecto.
+- La clase PanelFG se relaciona con Ventana, que parece ser el contenedor principal del proyecto.
 
 FUNCIONALIDAD:
--Para la funcionalidad del juego en casode que quiera obtenerlo es necesario clonar el repostorio presente, luego dirigirse a la carpeta 'src', dentro existen dos paquete o carpetas
+
+- Para la funcionalidad del juego en casode que quiera obtenerlo es necesario clonar el repostorio presente, luego dirigirse a la carpeta 'src', dentro existen dos paquete o carpetas
 Ejecuciones y Modelo, el cual dentro de modelo esta la clase main, preferiblemente en el IDE netbeans ejecute dicha clase y se ejecutara el juego.
 
 TECLAS DE FUNCIONALIDAD:
+
 -Q: diparo de la nave
 
 -Derecha'→' e Izquierda'←': movimiento nave derecha e izquierda.
@@ -218,4 +221,5 @@ JUEGO
 
 ![image](https://github.com/user-attachments/assets/a38dbfdc-ae3b-471a-b84c-ae13e7bcb4fc)
 
-
+ESTDIANTE:
+- Isauro Michael Rivera Maldonado

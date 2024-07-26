@@ -13,9 +13,12 @@ en el, mientras mas metoritos eliminen mas puntos tendras y por cada meteorito q
 CLASES:
 Coordenada
 - Atributos:
+  
   x: float
   y: float
+  
 - Métodos:
+  
   getX()
   getY()
   setY(int y)

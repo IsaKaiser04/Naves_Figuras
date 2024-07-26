@@ -11,109 +11,193 @@ en el, mientras mas metoritos eliminen mas puntos tendras y por cada meteorito q
 
 
 CLASES:
+
+
 Coordenada
 - Atributos:
   
   x: float
+
   y: float
   
 - Métodos:
   
   getX()
+
   getY()
+
   setY(int y)
+
   setX(int x)
+
   suma(Coordenada)
 
+
 Circulo
+
 -Atributos:
+  
   radio: float
 -Métodos:
+  
   getRadio()
+  
   setRadio(float radio)
+  
   getCentro()
 
+
 Rectangulo
+
 -Atributos:
+
   lado1: float
+  
   lado2: float
+
 -Métodos:
+
   getLado(int lado)
 
+
 Triangulo
+
 -Atributos:
+
   cor1: Coordenada
+  
   cor2: Coordenada
+  
   bala: ArrayList
+
 -Métodos:
+
   setVrice(Coordenada nva, int Lado)
+  
   Mover(Coordenada)
 
+
 CirculoGrafico
+
 -Atributos:
+
   color: Color
+
 -Métodos:
+
   setColor()
+  
   dibujar()
+
 
 RectanguloGrafico
+
 -Atributos:
+
   color: Color
+
 -Métodos:
+
   setColor()
+  
   dibujar()
+  
   Ciclo()
+
 
 TrianguloGrafico
+
 -Atributos:
+
   color: Color
+
 -Métodos:
+
   dibujar()
+  
   Bala(CirculoGrafico)
+  
   Ciclo()
 
+
 TextoGrafico
+
 -Atributos:
+
   s: String
+  
   color: Color
+  
   tamaño: int
+
 -Métodos:
+
   setTexto(String)
+  
   borrarTexto()
+  
   PintarTexto()
+  
   setTamaño(int)
+  
   getTamaño()
 
+
 PanelFG
+
 -Atributos:
+
   v: ArrayList<Dibujable>
+  
   ast: ArrayList<RectanguloGrafico>
+  
   movimientoIzq: Coordenada
+  
   movimientoDer: Coordenada
+  
   ContadorAsteroides: int
+  
   puntos: TextoGrafico
+  
   vidas: TextoGrafico
+
 -Métodos:
+
   paintComponent()
+  
   teclaPresionada()
+  
   teclaEscrita()
+  
   refPuntos(TextoGrafico)
+  
   refVidas(TextoGrafico)
+  
   Colision()
+  
   +refNave(TrianguloGrafico)
+  
   +refAst(RectanguloGrafico)
 
+
 Ventana
+
   Una clase aparentemente sin atributos o métodos detallados.
 
+
 <Interface> Dibujable
+
 -Método:
+
   dibujar()
 
 RELACIONES:
 -Las clases Circulo, Rectangulo y Triangulo parecen heredar de la clase Coordenada.
+
 -CirculoGrafico, RectanguloGrafico, y TrianguloGrafico están asociadas con Circulo, Rectangulo, y Triangulo, respectivamente, y tienen una relación de 1 a muchos con PanelFG.
+
 -TextoGrafico está relacionado con PanelFG, probablemente para mostrar puntos y vidas.
+
 -La clase PanelFG se relaciona con Ventana, que parece ser el contenedor principal del proyecto.
 
 FUNCIONALIDAD:
@@ -122,7 +206,9 @@ Ejecuciones y Modelo, el cual dentro de modelo esta la clase main, preferiblemen
 
 TECLAS DE FUNCIONALIDAD:
 -Q: diparo de la nave
+
 -Derecha'→' e Izquierda'←': movimiento nave derecha e izquierda.
+
 
 JUEGO
 ![image](https://github.com/user-attachments/assets/c2bc5016-2876-4d96-868a-bb201fd5d79d)

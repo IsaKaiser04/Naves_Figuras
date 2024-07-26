@@ -192,6 +192,7 @@ Ventana
   dibujar()
 
 RELACIONES:
+
 -Las clases Circulo, Rectangulo y Triangulo parecen heredar de la clase Coordenada.
 
 -CirculoGrafico, RectanguloGrafico, y TrianguloGrafico están asociadas con Circulo, Rectangulo, y Triangulo, respectivamente, y tienen una relación de 1 a muchos con PanelFG.

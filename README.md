@@ -35,10 +35,10 @@ Coordenada
 
 Circulo
 
--Atributos:
+- Atributos:
   
   radio: float
--Métodos:
+- Métodos:
   
   getRadio()
   
@@ -49,20 +49,20 @@ Circulo
 
 Rectangulo
 
--Atributos:
+- Atributos:
 
   lado1: float
   
   lado2: float
 
--Métodos:
+- Métodos:
 
   getLado(int lado)
 
 
 Triangulo
 
--Atributos:
+- Atributos:
 
   cor1: Coordenada
   
@@ -70,7 +70,7 @@ Triangulo
   
   bala: ArrayList
 
--Métodos:
+- Métodos:
 
   setVrice(Coordenada nva, int Lado)
   
@@ -79,11 +79,11 @@ Triangulo
 
 CirculoGrafico
 
--Atributos:
+- Atributos:
 
   color: Color
 
--Métodos:
+- Métodos:
 
   setColor()
   
@@ -92,11 +92,11 @@ CirculoGrafico
 
 RectanguloGrafico
 
--Atributos:
+- Atributos:
 
   color: Color
 
--Métodos:
+- Métodos:
 
   setColor()
   
@@ -107,11 +107,11 @@ RectanguloGrafico
 
 TrianguloGrafico
 
--Atributos:
+- Atributos:
 
   color: Color
 
--Métodos:
+- Métodos:
 
   dibujar()
   
@@ -122,7 +122,7 @@ TrianguloGrafico
 
 TextoGrafico
 
--Atributos:
+- Atributos:
 
   s: String
   
@@ -130,7 +130,7 @@ TextoGrafico
   
   tamaño: int
 
--Métodos:
+- Métodos:
 
   setTexto(String)
   
@@ -145,7 +145,7 @@ TextoGrafico
 
 PanelFG
 
--Atributos:
+- Atributos:
 
   v: ArrayList<Dibujable>
   
@@ -161,7 +161,7 @@ PanelFG
   
   vidas: TextoGrafico
 
--Métodos:
+- Métodos:
 
   paintComponent()
   
@@ -187,7 +187,7 @@ Ventana
 
 <Interface> Dibujable
 
--Método:
+- Método:
 
   dibujar()
 
